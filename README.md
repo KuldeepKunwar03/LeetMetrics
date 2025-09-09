@@ -11,12 +11,12 @@ This application is built entirely on the frontend and does not require its own 
 https://leetcode.com/graphql/
 <br>
 <br>
-
 To overcome the Cross-Origin Resource Sharing (CORS) policy enforced by browsers (which prevents a web page from making requests to a different domain), this project uses a public CORS proxy.
 <br>
 <br>
 <br>
 const proxyUrl = "https://cors-anywhere.herokuapp.com/";
+<br>
 const targetUrl = "https://leetcode.com/graphql/";
 <br>
 <br>
