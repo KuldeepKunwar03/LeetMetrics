@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LeetMetric</title>
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+
+  </head>
+
+  <body>
+    <!-- Main Contaier -->
+    <div class="container">
+      <h1>LeetMetric</h1>
+
+      <!-- User Container -->
+      <div class="user-container">
+        <p>Enter Your Username Below:</p>
+        <div class="user-input-container">
+          <input
+            type="text"
+            placeholder="Enter your Username"
+            id="user-input"
+          />
+          <button id="search-button">Search</button>
+        </div>
+      </div>
+
+      <!-- Stats Container -->
+      <div class="stats-container">
+        <!-- Progress Container -->
+        <div class="progress">
+
+          <div class="stat-card">
+            <div class="easy-progress circle">
+              <span id="easy-label"></span>
+            </div>
+            <p class="difficulty-label">EASY</p>
+            <p class="submission-count" id="easy-submissions"></p>
+          </div>
+
+          <div class="stat-card">
+            <div class="medium-progress circle">
+              <span id="medium-label"></span>
+            </div>
+            <p class="difficulty-label">MEDIUM</p>
+            <p class="submission-count" id="medium-submissions"></p>
+          </div>
+
+          <div class="stat-card">
+            <div class="hard-progress circle">
+              <span id="hard-label"></span>
+            </div>
+            <p class="difficulty-label">HARD</p>
+            <p class="submission-count" id="hard-submissions"></p>
+          </div>
+          
+        </div>
+
+        <div class="stats-cards">
+          <!-- populate from js Code -->
+        </div>
+      </div>
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>
